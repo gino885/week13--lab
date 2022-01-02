@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+</head>
+<body>
+	<div id="result">Hallow</div>
+
+		<script>
+		var input;
+		input=window.prompt("input data");
+		var char;
+		char=window.prompt("input a char to search");
+		var letter1=input.indexOf(char);
+		var letter2=input.lastIndexOf(char);
+		var letter3=input.indexOf(char,3);
+		document.getElementById("result").innerHTML=letter1+"<p>"
+	+letter2+"</P>"+letter3;
+	</script>
+</body>
+</html>
